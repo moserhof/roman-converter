@@ -3,20 +3,36 @@ import React from 'react';
 class RomanConverter extends React.Component {
   constructor(props) {
     super(props);
-
     this.state = {
-      numeral: ''
+      numeral: 'Look here for Roman numerals'
     };
 
     this.handleChange = this.handleChange.bind(this);
   }
 
   handleChange(e) {
-    console.log(e.target.value);
+    let inputValue = e.target.value;
+
+    if(!Boolean(Number(inputValue))) {
+      this.setState({
+        numeral: "Type a number hombre"
+      });
+    } else {
+      inputValue = Number(inputValue);
+
+      if(inputValue > 10000) {
+        this.setState({
+          numeral: 'Number too big, sorry chief.'
+        });
+      } else {
+        this.setState({
+          numeral: this.props.converterTool(inputValue)
+        });
+      }
+    }
   }
 
   render() {
-
     return (
       <div className="outer-tablet">
         <h2>Roman Converter</h2>
