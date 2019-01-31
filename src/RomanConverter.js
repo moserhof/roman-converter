@@ -1,4 +1,5 @@
 import React from 'react';
+import './RomanConverter.css';
 
 class RomanConverter extends React.Component {
   constructor(props) {
@@ -36,7 +37,11 @@ class RomanConverter extends React.Component {
     return (
       <div className="outer-tablet">
         <h2>Roman Converter</h2>
-      <input onChange={this.handleChange} type="text" placeholder="number to convert"/>
+        <input
+          onChange={this.handleChange}
+          className="input-box"
+          type="text"
+          placeholder="number to convert"/>
         <p className="roman-display">{this.state.numeral}</p>
       </div>
     );
