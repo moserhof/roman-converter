@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import RomanConverter from './RomanConverter';
-import romanCipher from './romanCipher';
+import romanCipher from '../romanCipher';
 
 class App extends Component {
   render() {

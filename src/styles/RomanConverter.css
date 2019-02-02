@@ -1,0 +1,101 @@
+.outer-tablet {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background: linear-gradient(#CD5D15 0%, #E42C65 100%) repeat 50% 50% / 100% 100%;
+}
+
+.outer-tablet h2 {
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Major Mono Display', monospace;
+}
+
+/* Input styles START */
+
+.input-box {
+  border: 0;
+  border-bottom: 2px solid black;
+  border-radius: 3.5pt;
+  font-size: 20px;
+  line-height: 35px;
+  width: 25%;
+  text-align: center;
+  padding: 7px;
+  background: transparent;
+}
+
+.input-box::placeholder {
+  color: #FFEAF1;
+  /* opacity: 0.42; */
+  font-family: 'Major Mono Display', monospace;
+  font-size: 15px;
+}
+
+.input-box input:focus {
+}
+/* Input styles END */
+
+.roman-display {
+  text-align: center;
+  padding: 5px;
+  font-size: 40px;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+
+/*
+
+MEDIA QUERIES START
+
+ */
+
+ @media only screen
+   and (min-device-width: 768px)
+   and (max-device-width: 1024px)
+   and (-webkit-min-device-pixel-ratio: 2) {
+
+    .outer-tablet h2 {
+      font-size: 48px;
+    }
+ }
+
+ @media only screen
+   and (min-device-width: 375px)
+   and (max-device-width: 788px) {
+
+    .outer-tablet h2 {
+      font-size: 48px;
+    }
+
+    .roman-display {
+      padding: 10px;
+      font-size: 60px;
+    }
+
+    .input-box::placeholder {
+      font-size: 20px;
+    }
+ }
+
+ @media only screen
+   and (min-device-width: 320px)
+   and (max-device-width: 788px) {
+
+    .outer-tablet h2 {
+      font-size: 38px;
+    }
+
+    .roman-display {
+      padding: 5px;
+      font-size: 45px;
+    }
+
+    .input-box::placeholder {
+      font-size: 20px;
+    }
+ }
