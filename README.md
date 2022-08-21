@@ -1,11 +1,19 @@
 # Roman Numeral Converter à la React
 
-#### Convert a number into a Roman Numeral faster than you can slap a tick!
+#### Convert a number into a Roman Numeral with speeds bordering on liquid lightening 🌊 ⚡
 
-**Note**: only converts one way for the time being [_4 --> IV_]
+💽 💽 💽
+1. **_React_**
+2. **_JavaScript_**
+3. **_HTML/CSS_**
 
-Do not use really big numbers if possible.
+**Note**: _only converts one way for the time being!_
+* 1776 ==>  _MDCCLXXVI_
+* 777 ==> _DCCLXXVII_
+* 3141 ==> _MMMCXLI_
 
-**Demo**: https://roman-converter.surge.sh/
+Do **not** use really big numbers.
 
+---
+## **Demo**: https://roman-converter.surge.sh/
 ![Roman Numeral Converter](https://i.imgur.com/jwIiqkJ.png)
