@@ -8,6 +8,14 @@
 3. **_HTML/CSS_**
 
 **Note**: _only converts one way for the time being!_
+
+## Examples
+* 5 ==> V
+* 10 ==> X
+* 50 ==> L
+* 100 ==> C
+* 400 ==> CD
+* 999 ==> CMXCIX
 * 1776 ==>  _MDCCLXXVI_
 * 777 ==> _DCCLXXVII_
 * 3141 ==> _MMMCXLI_
