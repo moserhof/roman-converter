@@ -1,4 +1,4 @@
-# Roman Numeral Converter à la React
+# Roman Numeral Converter
 
 #### Convert any typed number into a Roman Numeral automagically 🪄⚡
 
