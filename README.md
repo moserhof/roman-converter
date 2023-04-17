@@ -1,8 +1,9 @@
 # Roman Numeral Converter à la React
 
-#### Convert a number into a Roman Numeral - conversion speeds on par with liquid lightening 🌊 ⚡
+#### Convert any typed number into a Roman Numeral automagically 🪄⚡
 
-💽 💽 💽
+## 💽 💽 💽 
+**Languages**
 1. **_React_**
 2. **_JavaScript_**
 3. **_HTML/CSS_**
